@@ -1,0 +1,27 @@
+.img1>img{
+    width: 300px;
+    height: 400px;
+}
+.img2>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 15px;
+    left: 250px;
+}
+.image{
+    position: relative;
+}
+.text{
+    display: flex;
+}
+.gree{
+   padding: 100px 20px;
+   color: white;
+   background-color: green;
+   position: relative;
+}
+.circle{
+    width: 100px;
+    
+}

@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 55.5%;
+}
+/* body{ */
+    /* font-family: ; */
+/* } */
+.logo h1{
+    font-size: 5.2rem;
+    color: gold;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+h1{
+    font-weight: 800;
+    font-size: 3.6rem;
+    margin: 1.6rem 0;
+}
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+}
+p{
+    font-weight: 400;
+    margin: 1.6rem 0;
+    font-size: 1.8rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+section{
+    padding: 100px 0;
+}
+header{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 14, 11, 0.925),rgba(6, 15, 14, 0.9)),url(medium-shot-man-restaurant-with-smartphone.jpg);
+    /* background-image:url(); */
+    /* background:linear-gradient(); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+/* .logo h1{ */
+/* } */
+nav{
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    list-style: none;
+    color: white;
+}
+nav ul li::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+nav box-icon{
+    display: none;
+}
+.header{
+    width: 50%;
+    position: relative;
+    top: 16%;
+    left: 8%;
+}
+form{
+    margin: 2.4rem 0;
+}
+input{
+    font-size: 1.8rem;
+}
+input[type=text],
+input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit]{
+    width: 50%;
+    background-color: gold;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: copy;
+    text-transform: uppercase;
+}
+/* styling for the about */
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.about-left,
+.about-middle,
+.about-right{
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+.btn{
+    background-color: gold;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: bisque;
+    background-color: black;
+    border: none;
+}
+/* About2*/
+ .about2{
+    background-color: black;
+    color: whitesmoke;
+ }
+
+ .about2-left{
+    flex-basis: 50%;
+ }
+ .about2-right{
+    flex-basis: 30%;
+ }
+ .card{
+    padding: 3rem 5rem;
+    background-color: #dcdcdc;
+    margin: 1.6rem;
+    color: black;
+    text-align: center;
+ }
+ .progress-bar{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+ }
+ .c1,.c2,.c3{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+ }
+ .progress-bar.c1{
+    top: -8px;
+    left: 50px;
+    background: gold;
+ }
+ .progress-bar.c2{
+    background: red;
+    top: -8px;
+    right: 50%;
+ }
+ .progress-bar.c3{
+    background: green;
+    top: -8px;
+    right: 50px;
+ }
+ .box1,.box2,.box3{
+    padding: 1.8rem;
+ }
+ .box2{
+    text-align: center;
+ }
+.box3{
+    text-align: end;
+}
+.progress-content h2{
+    color: green;
+}
+.progress-content h2{
+    color: rgb(226, 119, 19);
+}
+.testimony{
+    /* testimony section */
+    background-color: black;
+    color: white;
+}
+.testimony.text{
+    background-color: rgb(116, 54, 54);
+    margin: 0 1rem;
+    padding: 4rem 8rem;
+}
+.testimony.images{
+    height: 80px;
+    width: 80px;
+}
+.testimony img{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.contact{
+    justify-content: center;
+}
+.row{
+    justify-content: center;
+    font-size: 6.2rem;
+}    
+.contact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact form input{
+    width: 50%;
+    border-radius: 8px 8px;
+}
+.contact textarea{
+    width: 50%;
+    height: 150px;
+    padding: 20px ;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+    border-radius: 8px 20px;
+}
+/* .contact .cont{ */
+/* } */
+footer{
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+.nav-big{
+    background: black;
+}
+.nav-contact{
+    background: black;
+}
+.cont{
+    font-size: 30px;
+    padding: 20px 0;
+    
+}
+
+@media only screen and(max-width:430px){
+    .row{
+        flex-direction: column;
+    }
+    nav box-icon{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 32px;
+    }
+    nav ul{
+        display: none;
+        background: whitesmoke;
+    }
+    nav ul li{
+        display: block;
+        padding: 2% 0;
+    }
+    nav ul li a{
+        color: black;
+    }
+    header{
+        width: 100%;
+        text-align: center;
+        padding: 0 8px;
+        top: 16%;
+        left: 0;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=submit]{
+        width: 80%;
+        margin: 1.2rem auto;
+    }
+    /* progress bar */
+    .progressbar{
+        display: none;
+    }
+    .progressbar{
+        margin-top: 20px;
+    }
+    .progressbar box1,
+    .progressbar box2,
+    .progressbarbox3{
+        text-align: center;
+        background-color: #cccc;
+        margin: 1rem 0;
+    } 
+    /* testimony */
+    .testimony .test{
+        margin: 1.6rem 0;
+    }
+    
+
+}
